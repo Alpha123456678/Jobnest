@@ -125,7 +125,7 @@ class _ForgetPasswordState extends State<ForgetPassword>
                 ),
                 SizedBox(height: 60),
                 MaterialButton(
-                  onPressed: () {},
+                  onPressed: _forgetPassSubmitForm,
                   color: Colors.cyan,
                   elevation: 8,
                   shape: RoundedRectangleBorder(
